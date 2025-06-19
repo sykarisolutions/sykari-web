@@ -1,13 +1,13 @@
 import Image from "next/image";
-
-const background = "/background.png"; 
+import background from "@/assets/background.png"; 
+import logo from "@/assets/logo-with-name.png"
 
 export default function Home() {
   return (
     <div
       className="min-h-screen flex flex-col items-center justify-center p-8 sm:p-20 font-sans text-gray-900 bg-repeat"
       style={{
-        backgroundImage: `url(${background})`,
+        backgroundImage: `url(${background.src})`,
         backgroundSize: "100px 100px",
         backgroundRepeat: "repeat",
         backgroundPosition: "center",
@@ -17,7 +17,7 @@ export default function Home() {
         {/* Logo */}
         <div className="w-92 h-92 mb-auto sm:w-92 sm:h-92 relative">
           <Image
-            src="/logo-with-name.png"
+            src={logo}
             alt="Sykari Solutions Logo"
             fill
             style={{ objectFit: "contain" }}
