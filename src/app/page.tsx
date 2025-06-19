@@ -4,15 +4,7 @@ import logo from "@/assets/logo-with-name.png";
 
 export default function Home() {
   return (
-    <div
-      className="min-h-screen flex flex-col items-center justify-center p-6 sm:p-20 font-sans text-gray-900 bg-repeat"
-      style={{
-        backgroundImage: `url(${background.src})`,
-        backgroundSize: "100px 100px",
-        backgroundRepeat: "repeat",
-        backgroundPosition: "center",
-      }}
-    >
+  <div className="min-h-screen flex flex-col items-center justify-center p-6 sm:p-20 font-sans text-gray-900 bg-repeat bg-[#DBBA8F]">
       <main className="flex flex-col items-center max-w-xl text-center bg-white/80 backdrop-blur-md rounded-3xl p-8 sm:p-12 shadow-xl w-full mx-auto">
         {/* Logo */}
         <div className="relative w-64 h-64 sm:w-80 sm:h-80 mb-6 sm:mb-1 mx-auto">
