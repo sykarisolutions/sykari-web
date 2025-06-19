@@ -22,7 +22,7 @@ export default function Home() {
           Elegant software solutions crafted with precision. Coming soon to{" "}
           <a className="font-semibold underline decoration-[#638692] hover:decoration-[#2F3E57]"
              href="https://sykari.com"
-             target="_blank"
+             target="_self"
              aria-label="Visit Sykari Solutions website"
           >
             Sykari.com
@@ -42,7 +42,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="mt-16 sm:mt-20 text-sm text-gray-700 select-none px-4 text-center">
-        &copy; {new Date().getFullYear()} Sykari Solutions LLC. All rights reserved.
+        &copy; {new Date().getFullYear()} Sykari Solutions. All rights reserved.
       </footer>
     </div>
   );
