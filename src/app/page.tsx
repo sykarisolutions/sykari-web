@@ -20,9 +20,13 @@ export default function Home() {
         {/* Tagline */}
         <p className="text-base sm:text-lg md:text-xl mb-8 max-w-md text-gray-700 leading-relaxed">
           Elegant software solutions crafted with precision. Coming soon to{" "}
-          <span className="font-semibold underline decoration-[#638692]">
+          <a className="font-semibold underline decoration-[#638692] hover:decoration-[#2F3E57]"
+             href="https://sykari.com"
+             target="_blank"
+             aria-label="Visit Sykari Solutions website"
+          >
             Sykari.com
-          </span>
+          </a>
           .
         </p>
 
